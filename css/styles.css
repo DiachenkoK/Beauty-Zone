@@ -1,0 +1,57 @@
+:root {
+  --color-primery-dark: #011c44;
+  --color-primery-white: #faf4ea;
+  --color-primery-light: #2b7fff;
+  --color-secondary-dark: #4a4a4a;
+  --color-secondary-white: #ffffff;
+}
+
+/* Base Базові стилі */
+body {
+  color: var(--color-primery-dark);
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* button Кнопка */
+.button {
+  color: var(--color-primery-white);
+  background-color: var(--color-primery-light);
+  border-radius: 32px;
+  border: 2px solid var(--color-primery-light);
+}
+
+/* Змінюємо стилі для кнопки при наведенні на неї */
+.button:hover {
+  color: var(--color-primery-dark);
+  background-color: transparent;
+}
+
+/* Link Посилання в шапці і в підвалі */
+.link {
+  color: var(--color-primery-dark);
+}
+
+.link:hover {
+  color: var(--color-primery-light);
+}
+
+/* Hero section Головна 1ша секція */
+.hero-title {
+  color: var(--color-primery-light);
+}
+
+.secondary-text {
+  color: var(--color-secondary-dark);
+}
+
+.section-title .accent {
+  color: var(--color-primery-light);
+}
+
+/* 4 секція Procedures-section */
+.list-procedures {
+  color: var(--color-secondary-white);
+}
